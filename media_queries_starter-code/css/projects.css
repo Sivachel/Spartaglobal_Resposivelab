@@ -14,7 +14,22 @@
 	box-sizing: border-box;
 }
 
+@media screen and (max-width:400px) {
+  .tile {
+    border: none;
+    display: flow-root;
+    width: auto;
+  }
+}
+
 .tile img	{
 	display: block;
 	margin: 0 auto;
+}
+
+@media screen and (max-width:400px) {
+  .tile img{
+    display: flow-root;
+
+  }
 }
